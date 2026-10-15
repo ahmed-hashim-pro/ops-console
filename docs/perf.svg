@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="488" viewBox="0 0 1000 488" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#fcfcfb"/>
+<text x="24" y="30" font-size="17" font-weight="600" fill="#0b0b0b">The same dashboard with four ways of applying events</text>
+<text x="24" y="50" font-size="12.5" fill="#52514e">5,000 entities, Chromium, 6 conditions × 20 s each, a keystroke every 500 ms. Lower is better.</text>
+<rect x="24" y="66" width="12" height="12" rx="2" fill="#2a78d6"/><text x="42" y="76.5" font-size="12.5" fill="#0b0b0b">Batched (one update per frame)</text>
+<rect x="265" y="66" width="12" height="12" rx="2" fill="#eb6834"/><text x="283" y="76.5" font-size="12.5" fill="#0b0b0b">Eager (one update per event)</text>
+<rect x="492.6" y="66" width="12" height="12" rx="2" fill="#1baf7a"/><text x="510.6" y="76.5" font-size="12.5" fill="#0b0b0b">Naive (new list per event)</text>
+<rect x="706.8000000000001" y="66" width="12" height="12" rx="2" fill="#eda100"/><text x="724.8000000000001" y="76.5" font-size="12.5" fill="#0b0b0b">zone.js (render per event)</text>
+<text x="194" y="94" font-size="13" font-weight="600" fill="#0b0b0b">Dropped frames</text>
+<line x1="194" y1="104" x2="194" y2="458" stroke="#e4e3df"/><text x="194" y="474" font-size="11" text-anchor="middle" fill="#52514e">0%</text>
+<line x1="273.75" y1="104" x2="273.75" y2="458" stroke="#e4e3df"/><text x="273.75" y="474" font-size="11" text-anchor="middle" fill="#52514e">25%</text>
+<line x1="353.5" y1="104" x2="353.5" y2="458" stroke="#e4e3df"/><text x="353.5" y="474" font-size="11" text-anchor="middle" fill="#52514e">50%</text>
+<line x1="433.25" y1="104" x2="433.25" y2="458" stroke="#e4e3df"/><text x="433.25" y="474" font-size="11" text-anchor="middle" fill="#52514e">75%</text>
+<line x1="513" y1="104" x2="513" y2="458" stroke="#e4e3df"/><text x="513" y="474" font-size="11" text-anchor="middle" fill="#52514e">100%</text>
+<text x="180" y="135" font-size="12.5" text-anchor="end" fill="#0b0b0b">10,000/s</text>
+<path d="M194 110h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#2a78d6"/><text x="201" y="118.5" font-size="10.5" fill="#52514e">0.0%</text>
+<path d="M194 121h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eb6834"/><text x="201" y="129.5" font-size="10.5" fill="#52514e">0.0%</text>
+<path d="M194 132h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#1baf7a"/><text x="201" y="140.5" font-size="10.5" fill="#52514e">0.0%</text>
+<path d="M194 143h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eda100"/><text x="201" y="151.5" font-size="10.5" fill="#52514e">0.0%</text>
+<text x="180" y="193" font-size="12.5" text-anchor="end" fill="#0b0b0b">20,000/s</text>
+<path d="M194 168h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#2a78d6"/><text x="201" y="176.5" font-size="10.5" fill="#52514e">0.0%</text>
+<path d="M194 179h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eb6834"/><text x="201" y="187.5" font-size="10.5" fill="#52514e">0.0%</text>
+<path d="M194 190h41.60813008130083a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-41.60813008130083z" fill="#1baf7a"/><text x="243.60813008130083" y="198.5" font-size="10.5" fill="#52514e">14.0%</text>
+<path d="M194 201h302.8804265041889a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-302.8804265041889z" fill="#eda100"/><text x="504.8804265041889" y="209.5" font-size="10.5" fill="#52514e">95.9%</text>
+<text x="180" y="251" font-size="12.5" text-anchor="end" fill="#0b0b0b">40,000/s</text>
+<path d="M194 226h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#2a78d6"/><text x="201" y="234.5" font-size="10.5" fill="#52514e">0.0%</text>
+<path d="M194 237h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eb6834"/><text x="201" y="245.5" font-size="10.5" fill="#52514e">0.0%</text>
+<path d="M194 248h309.1904761904762a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-309.1904761904762z" fill="#1baf7a"/><text x="511.1904761904762" y="256.5" font-size="10.5" fill="#52514e">97.9%</text>
+<path d="M194 259h311.5349922239502a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-311.5349922239502z" fill="#eda100"/><text x="513.5349922239502" y="267.5" font-size="10.5" fill="#52514e">98.6%</text>
+<text x="180" y="309" font-size="12.5" text-anchor="end" fill="#0b0b0b">2,000/s, 4× slower CPU</text>
+<path d="M194 284h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#2a78d6"/><text x="201" y="292.5" font-size="10.5" fill="#52514e">0.0%</text>
+<path d="M194 295h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eb6834"/><text x="201" y="303.5" font-size="10.5" fill="#52514e">0.0%</text>
+<path d="M194 306h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#1baf7a"/><text x="201" y="314.5" font-size="10.5" fill="#52514e">0.0%</text>
+<path d="M194 317h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eda100"/><text x="201" y="325.5" font-size="10.5" fill="#52514e">0.0%</text>
+<text x="180" y="367" font-size="12.5" text-anchor="end" fill="#0b0b0b">5,000/s, 4× slower CPU</text>
+<path d="M194 342h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#2a78d6"/><text x="201" y="350.5" font-size="10.5" fill="#52514e">0.0%</text>
+<path d="M194 353h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eb6834"/><text x="201" y="361.5" font-size="10.5" fill="#52514e">0.0%</text>
+<path d="M194 364h105.14436334144364a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-105.14436334144364z" fill="#1baf7a"/><text x="307.14436334144364" y="372.5" font-size="10.5" fill="#52514e">33.9%</text>
+<path d="M194 375h86.03550784475641a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-86.03550784475641z" fill="#eda100"/><text x="288.0355078447564" y="383.5" font-size="10.5" fill="#52514e">27.9%</text>
+<text x="180" y="425" font-size="12.5" text-anchor="end" fill="#0b0b0b">10,000/s, 4× slower CPU</text>
+<path d="M194 400h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#2a78d6"/><text x="201" y="408.5" font-size="10.5" fill="#52514e">0.1%</text>
+<path d="M194 411h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eb6834"/><text x="201" y="419.5" font-size="10.5" fill="#52514e">0.5%</text>
+<path d="M194 422h313.19280000000003a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-313.19280000000003z" fill="#1baf7a"/><text x="515.1928" y="430.5" font-size="10.5" fill="#52514e">99.1%</text>
+<path d="M194 433h313.83911939034715a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-313.83911939034715z" fill="#eda100"/><text x="515.8391193903472" y="441.5" font-size="10.5" fill="#52514e">99.3%</text>
+<text x="617" y="94" font-size="13" font-weight="600" fill="#0b0b0b">Input delay, 95th percentile</text>
+<line x1="617" y1="104" x2="617" y2="458" stroke="#e4e3df"/><text x="617" y="474" font-size="11" text-anchor="middle" fill="#52514e">0 ms</text>
+<line x1="696.75" y1="104" x2="696.75" y2="458" stroke="#e4e3df"/><text x="696.75" y="474" font-size="11" text-anchor="middle" fill="#52514e">2500 ms</text>
+<line x1="776.5" y1="104" x2="776.5" y2="458" stroke="#e4e3df"/><text x="776.5" y="474" font-size="11" text-anchor="middle" fill="#52514e">5000 ms</text>
+<line x1="856.25" y1="104" x2="856.25" y2="458" stroke="#e4e3df"/><text x="856.25" y="474" font-size="11" text-anchor="middle" fill="#52514e">7500 ms</text>
+<line x1="936" y1="104" x2="936" y2="458" stroke="#e4e3df"/><text x="936" y="474" font-size="11" text-anchor="middle" fill="#52514e">10000 ms</text>
+<path d="M617 110h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#2a78d6"/><text x="624" y="118.5" font-size="10.5" fill="#52514e">37 ms</text>
+<path d="M617 121h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eb6834"/><text x="624" y="129.5" font-size="10.5" fill="#52514e">35 ms</text>
+<path d="M617 132h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#1baf7a"/><text x="624" y="140.5" font-size="10.5" fill="#52514e">30 ms</text>
+<path d="M617 143h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eda100"/><text x="624" y="151.5" font-size="10.5" fill="#52514e">40 ms</text>
+<path d="M617 168h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#2a78d6"/><text x="624" y="176.5" font-size="10.5" fill="#52514e">30 ms</text>
+<path d="M617 179h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eb6834"/><text x="624" y="187.5" font-size="10.5" fill="#52514e">33 ms</text>
+<path d="M617 190h2.623969998478856a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-2.623969998478856z" fill="#1baf7a"/><text x="627.6239699984789" y="198.5" font-size="10.5" fill="#52514e">176 ms</text>
+<path d="M617 201h64.43979000076058a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-64.43979000076058z" fill="#eda100"/><text x="689.4397900007606" y="209.5" font-size="10.5" fill="#52514e">2114 ms</text>
+<path d="M617 226h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#2a78d6"/><text x="624" y="234.5" font-size="10.5" fill="#52514e">33 ms</text>
+<path d="M617 237h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eb6834"/><text x="624" y="245.5" font-size="10.5" fill="#52514e">34 ms</text>
+<path d="M617 248h48.732229999619676a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-48.732229999619676z" fill="#1baf7a"/><text x="673.7322299996197" y="256.5" font-size="10.5" fill="#52514e">1622 ms</text>
+<path d="M617 259h69.62992000038025a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-69.62992000038025z" fill="#eda100"/><text x="694.6299200003803" y="267.5" font-size="10.5" fill="#52514e">2277 ms</text>
+<path d="M617 284h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#2a78d6"/><text x="624" y="292.5" font-size="10.5" fill="#52514e">35 ms</text>
+<path d="M617 295h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eb6834"/><text x="624" y="303.5" font-size="10.5" fill="#52514e">34 ms</text>
+<path d="M617 306h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#1baf7a"/><text x="624" y="314.5" font-size="10.5" fill="#52514e">51 ms</text>
+<path d="M617 317h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eda100"/><text x="624" y="325.5" font-size="10.5" fill="#52514e">40 ms</text>
+<path d="M617 342h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#2a78d6"/><text x="624" y="350.5" font-size="10.5" fill="#52514e">39 ms</text>
+<path d="M617 353h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eb6834"/><text x="624" y="361.5" font-size="10.5" fill="#52514e">39 ms</text>
+<path d="M617 364h5.727839998859167a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-5.727839998859167z" fill="#1baf7a"/><text x="630.7278399988592" y="372.5" font-size="10.5" fill="#52514e">274 ms</text>
+<path d="M617 375h9.874840000760514a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-9.874840000760514z" fill="#eda100"/><text x="634.8748400007605" y="383.5" font-size="10.5" fill="#52514e">404 ms</text>
+<path d="M617 400h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#2a78d6"/><text x="624" y="408.5" font-size="10.5" fill="#52514e">47 ms</text>
+<path d="M617 411h-1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h1z" fill="#eb6834"/><text x="624" y="419.5" font-size="10.5" fill="#52514e">47 ms</text>
+<path d="M617 422h227.63381000114077a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-227.63381000114077z" fill="#1baf7a"/><text x="852.6338100011408" y="430.5" font-size="10.5" fill="#52514e">7230 ms</text>
+<path d="M617 433h313.66172999961964a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-313.66172999961964z" fill="#eda100"/><text x="938.6617299996196" y="441.5" font-size="10.5" fill="#52514e">9927 ms</text>
+</svg>

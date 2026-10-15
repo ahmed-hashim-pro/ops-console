@@ -1,0 +1,146 @@
+{
+  "env": {
+    "date": "2026-10-15T02:14:59.449Z",
+    "load": 1.96,
+    "minutes": 10,
+    "rate": 10000,
+    "n": 5000,
+    "mode": "batched"
+  },
+  "samples": [
+    {
+      "at": 30,
+      "heapMB": 4.8244781494140625,
+      "domNodes": 1830,
+      "received": 300827
+    },
+    {
+      "at": 60,
+      "heapMB": 4.938385009765625,
+      "domNodes": 1848,
+      "received": 600867
+    },
+    {
+      "at": 90,
+      "heapMB": 4.987983703613281,
+      "domNodes": 1839,
+      "received": 900916
+    },
+    {
+      "at": 120,
+      "heapMB": 5.0022735595703125,
+      "domNodes": 1836,
+      "received": 1200787
+    },
+    {
+      "at": 150,
+      "heapMB": 5.020515441894531,
+      "domNodes": 1845,
+      "received": 1500777
+    },
+    {
+      "at": 180,
+      "heapMB": 5.082389831542969,
+      "domNodes": 1851,
+      "received": 1800827
+    },
+    {
+      "at": 210,
+      "heapMB": 5.083347320556641,
+      "domNodes": 1845,
+      "received": 2100817
+    },
+    {
+      "at": 240,
+      "heapMB": 5.092594146728516,
+      "domNodes": 1833,
+      "received": 2400737
+    },
+    {
+      "at": 270,
+      "heapMB": 5.003719329833984,
+      "domNodes": 1836,
+      "received": 2700893
+    },
+    {
+      "at": 300,
+      "heapMB": 5.031410217285156,
+      "domNodes": 1839,
+      "received": 3000825
+    },
+    {
+      "at": 330,
+      "heapMB": 5.050537109375,
+      "domNodes": 1833,
+      "received": 3300734
+    },
+    {
+      "at": 360,
+      "heapMB": 5.0361175537109375,
+      "domNodes": 1833,
+      "received": 3600697
+    },
+    {
+      "at": 390,
+      "heapMB": 5.071384429931641,
+      "domNodes": 1830,
+      "received": 3900856
+    },
+    {
+      "at": 420,
+      "heapMB": 5.053272247314453,
+      "domNodes": 1845,
+      "received": 4200772
+    },
+    {
+      "at": 450,
+      "heapMB": 5.066806793212891,
+      "domNodes": 1830,
+      "received": 4500777
+    },
+    {
+      "at": 480,
+      "heapMB": 5.079750061035156,
+      "domNodes": 1833,
+      "received": 4800808
+    },
+    {
+      "at": 510,
+      "heapMB": 5.100067138671875,
+      "domNodes": 1851,
+      "received": 5100768
+    },
+    {
+      "at": 540,
+      "heapMB": 5.090240478515625,
+      "domNodes": 1833,
+      "received": 5400953
+    },
+    {
+      "at": 570,
+      "heapMB": 5.048652648925781,
+      "domNodes": 1833,
+      "received": 5700796
+    },
+    {
+      "at": 600,
+      "heapMB": 5.075572967529297,
+      "domNodes": 1836,
+      "received": 6000919
+    },
+    {
+      "at": 630,
+      "heapMB": 5.077781677246094,
+      "domNodes": 1836,
+      "received": 6300857
+    }
+  ],
+  "afterWarmup": {
+    "heapStartMB": 5.0022735595703125,
+    "heapPeakMB": 5.100067138671875,
+    "heapEndMB": 5.077781677246094,
+    "growthMB": 0.0977935791015625,
+    "domStart": 1836,
+    "domPeak": 1851
+  }
+}
