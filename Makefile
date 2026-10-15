@@ -24,7 +24,7 @@ install:
 build: install
 	$(NODE) npm run build
 
-## Unit tests (Vitest, through the Angular CLI) and server tests (node:test).
+## Unit tests (Vitest, through the Angular CLI), server and colour-contrast tests (node:test).
 test: install
 	$(NODE) npm test
 

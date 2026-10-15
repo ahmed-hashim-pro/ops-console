@@ -15,6 +15,7 @@
   --focus: #0969da;
   --row-hover: #f3f6f9;
   --row-selected: #ddf4ff;
+  --link-selected: #0550ae;
   --ok-bg: #dafbe1;
   --ok-fg: #116329;
   --warn-bg: #fff8c5;
@@ -41,6 +42,7 @@
   --focus: #79c0ff;
   --row-hover: #1c2128;
   --row-selected: #12304f;
+  --link-selected: #79c0ff;
   --ok-bg: #12301c;
   --ok-fg: #6fdd8b;
   --warn-bg: #33290b;
@@ -452,6 +454,9 @@ footer {
 }
 .fleet .open:hover {
   text-decoration: underline;
+}
+.fleet tr.selected .open {
+  color: var(--link-selected);
 }
 .table-note {
   margin: 0;

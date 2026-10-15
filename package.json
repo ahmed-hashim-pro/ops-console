@@ -7,7 +7,7 @@
     "build": "ng build && ng build --configuration production,zone",
     "serve": "node server/server.mjs",
     "dev": "ng serve --proxy-config proxy.conf.json",
-    "test": "ng test --watch=false && node --test server/*.test.mjs",
+    "test": "ng test --watch=false && node --test server/*.test.mjs test/*.test.mjs",
     "e2e": "playwright test",
     "perf": "node perf/run.mjs",
     "soak": "node perf/soak.mjs"

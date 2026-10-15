@@ -155,7 +155,7 @@ The query string chooses what you see:
 Tests:
 
 ```bash
-make test        # 24 unit tests (Vitest) + 5 server tests (node:test)
+make test        # 24 unit tests (Vitest) + 8 node:test tests (server, colour contrast)
 make e2e         # 28 Playwright tests: keyboard-only, axe, every store
 make perf-check  # the batched store at 10,000/s against CI's thresholds
 make soak        # ten minutes; fails if the heap or DOM keeps growing
@@ -235,8 +235,8 @@ text.
 | The alert list holds still while focus is in it, with new alerts behind a "Show N new alerts" button | `e2e/keyboard.spec.ts` |
 | Updates can be paused (WCAG 2.2.2) | `e2e/keyboard.spec.ts` |
 | Single-key shortcuts can be turned off (WCAG 2.1.4) | `e2e/keyboard.spec.ts` |
-| Status is never shown by colour alone: a shape and the word go with it. Text contrast meets AA in both themes | `e2e/a11y.spec.ts` (axe's contrast rule) |
-| Chart lines and the focus ring are 3:1 or better against their background (lines 5.1–6.8:1, focus ring 5.2–9.7:1) | Computed from the colour tokens in `src/styles.css`. axe can't see into a canvas |
+| Status is never shown by colour alone: a shape and the word go with it | `e2e/a11y.spec.ts` |
+| Text contrast meets AA (4.5:1) in both themes. Chart lines and the focus ring are 3:1 or better (lines 5.1–6.8:1, focus ring 5.2–9.7:1) | axe's contrast rule in `e2e/a11y.spec.ts`, and `test/contrast.test.mjs`, which checks every colour-token pair in `src/styles.css` in both themes. axe sees only what is rendered, and nothing inside a canvas. On the first CI run it caught one failure, which hadn't shown locally: in the dark theme, a selected row's name was 4.34:1. It now has its own colour |
 | Nothing animates or flashes. Updated cells don't flash, and `prefers-reduced-motion` turns off any transition | `e2e/a11y.spec.ts` |
 
 ## What this does not do
